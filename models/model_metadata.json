@@ -1,0 +1,24 @@
+{
+  "best_model": "ETS",
+  "training_date": "2024-11-XX",
+  "training_data_points": 4,
+  "training_years": [
+    2014,
+    2017,
+    2021,
+    2024
+  ],
+  "forecast_horizon": 3,
+  "model_performance": {
+    "MAE": 7.0000004607388675,
+    "RMSE": 8.602325692804323,
+    "MAPE": 14.418811967785523
+  },
+  "arima_trained": true,
+  "ets_parameters": {
+    "smoothing_level": 0.007862510728911405,
+    "smoothing_trend": 0.0,
+    "initial_level": 8.99999985019227,
+    "initial_trend": 13.000000174947397
+  }
+}

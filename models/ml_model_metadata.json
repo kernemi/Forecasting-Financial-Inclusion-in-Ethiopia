@@ -1,0 +1,47 @@
+{
+  "training_date": "2026-02-03",
+  "n_features": 10,
+  "features": [
+    "ACC_FAYDA",
+    "ACC_MM_ACCOUNT",
+    "ACC_MOBILE_PEN",
+    "AFF_DATA_INCOME",
+    "GEN_GAP_ACC",
+    "GEN_GAP_MOBILE",
+    "GEN_MM_SHARE",
+    "USG_ACTIVE_RATE",
+    "USG_MPESA_ACTIVE",
+    "USG_MPESA_USERS"
+  ],
+  "train_years": [
+    2014.0,
+    2017.0
+  ],
+  "test_years": [
+    2021.0,
+    2024.0
+  ],
+  "best_classifier": "N/A",
+  "best_regressor": "Ridge Regression",
+  "classification_metrics": [],
+  "regression_metrics": [
+    {
+      "Model": "Ridge Regression",
+      "MAE": 24.5,
+      "RMSE": 29.261749776799064,
+      "R\u00b2": -0.4264889629321116
+    },
+    {
+      "Model": "Random Forest",
+      "MAE": 24.5,
+      "RMSE": 29.142038363848197,
+      "R\u00b2": -0.4148411495210329
+    },
+    {
+      "Model": "Gradient Boosting",
+      "MAE": 24.5,
+      "RMSE": 29.261749776799064,
+      "R\u00b2": -0.4264889629321116
+    }
+  ]
+}

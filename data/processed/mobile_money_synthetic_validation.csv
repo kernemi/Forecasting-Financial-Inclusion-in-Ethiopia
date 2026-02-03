@@ -1,0 +1,5 @@
+fiscal_year,mobile_money_account_pct,telebirr_users_millions,data_source
+2021,16.0,5.0,Findex 2021 (actual)
+2022,22.5,28.0,Synthetic (based on Telebirr reports + Kenya M-Pesa pattern)
+2023,28.8,42.0,Synthetic (interpolated)
+2024,34.2,54.0,"Synthetic (Telebirr 54M users reported, ownership estimated)"
